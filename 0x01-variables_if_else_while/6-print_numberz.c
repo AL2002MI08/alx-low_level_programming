@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers 0-9 do not use char, use the putchar 2max 
- * 
+ * main - prints numbers 0-9 do not use char, use the putchar 2max  
 (*
  * Return: 0 on success
  */
