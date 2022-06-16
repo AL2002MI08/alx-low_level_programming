@@ -2,17 +2,18 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-	char str[] = "Expect the best. Capitalize on what comes next\n";
-	char *ptr;
+	char s[] = "Expect the best. Capitalize on what comes\n";
+	char *p;
 
-	ptr = cap_string(str);
-	printf("%s", ptr);
-	printf("%s", str);
+	p = cap_string(s);
+	printf("%s", p);
+	printf("%s", s);
 	return (0);
 }
